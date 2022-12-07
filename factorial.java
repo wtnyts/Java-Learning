@@ -6,7 +6,7 @@ public class factorial {
         Scanner in = new Scanner(System.in);
         System.out.print("Введите значение х: ");
         int x=in.nextInt();
-        System.out.println(fact(x));}
+        System.out.println("Факториал числа "+x+" равен "+fact(x));}
 
     public static int fact(int x){
         int f=1;
